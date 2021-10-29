@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border-radius: 2.5rem;
+  color: $primary-color;
+  margin: 1rem;
+  font-size: 1.5rem;
+  border: 3px solid $primary-color;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+  &:hover {
+    color: white;
+    background: $primary-color;
+    font-size: 3rem;
+  }
+}

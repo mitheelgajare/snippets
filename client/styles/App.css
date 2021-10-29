@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border-radius: 2.5rem;
+  color: #4287f5;
+  margin: 1rem;
+  font-size: 1.5rem;
+  border: 3px solid #4287f5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.button:hover {
+  color: white;
+  background: #4287f5;
+  font-size: 3rem;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  background: #4287f5;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar a {
+  display: block;
+  padding: 0 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+@media (max-width: 428px) {
+  .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar a {
+    font-size: 1.25rem;
+  }
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  color: gray;
+}
+
+.about-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+}
+
+.about-page .card {
+  width: 90vw;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: center;
+  -webkit-box-shadow: 0 0 1rem #4287f5;
+          box-shadow: 0 0 1rem #4287f5;
+}
+
+.about-page .card h2 {
+  color: #4287f5;
+  font-size: 3rem;
+}
+
+.about-page .card p {
+  max-width: 50rem;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.index-page {
+  text-align: center;
+}
+
+.index-page h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.index-page p {
+  max-width: 75vw;
+  margin: auto;
+}
+
+@media (max-width: 450px) {
+  .index-page h1 {
+    font-size: 3rem;
+  }
+}
+
+.search-page {
+  text-align: center;
+}
+
+.search-page form input {
+  min-width: 40rem;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  font-size: 1.25rem;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+.search-page form input:focus {
+  border-bottom: 3px solid #4287f5;
+}
+
+.search-page .snippets-list {
+  width: 90vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search-page .snippets-list .singular-snippet {
+  border: 3px solid #4287f5;
+  text-align: left;
+  margin: 1rem 0;
+  padding: 1rem;
+  position: relative;
+}
+
+.search-page .snippets-list .singular-snippet a {
+  font-size: 1.5rem;
+  max-width: 50%;
+  display: inline-block;
+  text-decoration: none;
+  color: #4287f5;
+}
+
+.search-page .snippets-list .singular-snippet a:hover {
+  text-decoration: underline;
+}
+
+.search-page .snippets-list .singular-snippet h4 {
+  position: absolute;
+  font-size: 1.25rem;
+  top: 1rem;
+  right: 1rem;
+}
+
+.search-page .snippets-list .singular-snippet-special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .search-page form input {
+    min-width: 10rem;
+  }
+  .search-page .snippets-list .singular-snippet h4 {
+    position: static;
+    font-size: 1rem;
+  }
+}
+
+.snippet-details {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  grid-auto-rows: minmax(10vh, auto);
+  padding: 1rem;
+  background: #f2f2f2;
+}
+
+.snippet-details div {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+}
+
+.snippet-details div button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.5rem 1.25rem;
+  margin: 1rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border-radius: 2.5rem;
+  color: #4287f5;
+  font-size: 1.5rem;
+  border: 3px solid #4287f5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.snippet-details div button:hover {
+  color: white;
+  background: #4287f5;
+  font-size: 3rem;
+}
+
+.snippet-details .code {
+  font-family: "Fira Code", monospace;
+  font-weight: 800;
+}
+
+@media (max-width: 700px) {
+  .snippet-details {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.error-404-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 50vh;
+}
+
+.error-404-page div {
+  max-width: 20rem;
+  text-align: center;
+  border: 3px solid #4287f5;
+  padding: 1rem;
+  -webkit-box-shadow: 0 0 1rem #4287f5;
+          box-shadow: 0 0 1rem #4287f5;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=App.css.map */

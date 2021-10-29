@@ -1,0 +1,19 @@
+.index-page {
+  text-align: center;
+
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  p {
+    max-width: 75vw;
+    margin: auto;
+  }
+
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}

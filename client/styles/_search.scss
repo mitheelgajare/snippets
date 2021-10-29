@@ -1,0 +1,77 @@
+.search-page {
+  text-align: center;
+
+  form {
+    input {
+      min-width: 40rem;
+      font-family: "Poppins", sans-serif;
+      border: none;
+      border-bottom: 3px solid black;
+      outline: none;
+      font-size: 1.25rem;
+      transition-property: all;
+      transition-duration: 0.25s;
+
+      &:focus {
+        border-bottom: 3px solid $primary-color;
+      }
+    }
+  }
+
+  .snippets-list {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .singular-snippet {
+      border: 3px solid $primary-color;
+      text-align: left;
+      margin: 1rem 0;
+      padding: 1rem;
+      position: relative;
+
+      a {
+        font-size: 1.5rem;
+        max-width: 50%;
+        display: inline-block;
+        text-decoration: none;
+        color: $primary-color;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      h4 {
+        position: absolute;
+        font-size: 1.25rem;
+        top: 1rem;
+        right: 1rem;
+      }
+    }
+
+    .singular-snippet-special {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 700px) {
+    form {
+      input {
+        min-width: 10rem;
+      }
+    }
+
+    .snippets-list {
+      .singular-snippet {
+        h4 {
+          position: static;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

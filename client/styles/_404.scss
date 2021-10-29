@@ -1,0 +1,15 @@
+.error-404-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+
+  div {
+    max-width: 20rem;
+    text-align: center;
+    border: 3px solid $primary-color;
+    padding: 1rem;
+    box-shadow: 0 0 1rem $primary-color;
+    font-size: 2rem;
+  }
+}
