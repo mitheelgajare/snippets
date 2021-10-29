@@ -59,6 +59,10 @@ a quicksort algorithm and don't want to spend time writing it. Copy it from our 
 
 ## Contributing:
 
-**Please read the CONTRIBUTING.md for details**
+**Please read the [CONTRIBUTING.md](https://github.com/mitheelgajare/snippets/blob/master/CONTRIBUTING.md) for details**
+
+## License:
+
+This project is **MIT Licensed**
 
 
