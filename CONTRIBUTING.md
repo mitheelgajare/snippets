@@ -77,7 +77,9 @@ If you do not notice any bug type `LGTM`. Once a pull request has a certain numb
 
 1. Do *NOT* add new pages.
 2. Use Prettier - Code Formatter for every file.
-3. To change the styling use Scss only. Add a new .scss file for every major component. Import every file in the App.scss file. It will be compiled to App.css .
+3. Use yarn
+4. Type `yarn install` to install dependencies in the `node_modules` folder
+5. To change the styling use Scss only. Add a new .scss file for every major component. Import every file in the App.scss file. It will be compiled to App.css .
 
 
 ## Conclusion:
