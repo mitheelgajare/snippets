@@ -23,7 +23,12 @@ Contributing is to be done throught pull requests. Here are some instructions to
 
 ### All pull requests must have the following format:
 
-#### {prefix}: {message}
+```
+prefix: message
+description
+```
+
+
 
 The valid prefixes are:
 
@@ -33,12 +38,50 @@ The valid prefixes are:
       
 
 
-What to contribtue
+## What to contribute?
 
-Quick start guide.
+Well, what we are looking for in this repo?
 
-Code guidelines: formatting
+You can help in a number of ways:
 
-Conclusion
+- By adding more snippets. There are always new algorithms and data structures. If you know any algorithm or data structure or just any code snippet in **any** language which can be useful for others, just create a pull request. First check through the pull requests (both open and closed) if that snippet exists, if not then create a pull request. Please mention the title, description, code and language in the pull request. You can add the new snippet in a file with the correct extension. Add that file in /codeSnippets/{nameOfLanguage}/ .
+
+- By checking the pull requests. There are thousands of programming languages out there, most of which I do not know. An error could have crept into the code present which some of us might not notice. So, scroll through the pull requests, if you find a bug write a comment below the pull request mentioning the bug and on exactly which lines(s) it is on.
+If you do not notice any bug type `LGTM`. Once a pull request has a certain number of LGTM's, it would be accepted.
+
+- If you notice any bug in the frontend code or have a new feature which could be implemented. Raise an issue first, create a pull request once the issue is approved.
+
+
+## Quick start guide.
+
+1. First clone this repo.
+1. The codeSnippets folder is where all the snippets are. If you wish to add a snippet do it in /codeSnippets/{nameOfLanguage}/. **Please read all guidelines before**
+1. The client folder is where all the frontend code is. Once you go inside the folder, you will see the following files and folders: 
+      ```
+      components: All the react components to be reused,
+      pages: all the nextJS pages,
+      public: the public files
+      styles: All the frontend styling
+      ```
+
+
+## Code guidelines: 
+
+### Adding new snippets:
+1. Use Prettier - Code Formatter whenever possible. If not, make sure the code is in a readable format.
+
+### Contributing to Frontend Code:
+*If you just want to add snippets, you can skip this part*
+
+**Please create an issue before creating a pull request for frontend code**
+
+1. Do *NOT* add new pages.
+2. Use Prettier - Code Formatter for every file.
+3. To change the styling use Scss only. Add a new .scss file for every major component. Import every file in the App.scss file. It will be compiled to App.css .
+
+
+## Conclusion:
+
+Thank you for reading this document (It was very long, sorry 😬). We hope to see your contributions.
 
 
