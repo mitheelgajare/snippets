@@ -1,0 +1,17 @@
+name: "Continuous Integration"
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  check_pull_requests:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 14
+    - name: Install dependencies and run tests
+      run: |
+        cd client
+        yarn install
+        yarn run build
