@@ -35,12 +35,13 @@ The valid prefixes are:
 1. fix: On fixing a bug
 1. feat: On adding a new feature
 1. docs: On changing documentation
+1. chore: On adding something which is too small to be a feature but not a bug fix
       
 
 
 ## What to contribute?
 
-Well, what we are looking for in this repo?
+Well, what are we looking for in this repo?
 
 You can help in a number of ways:
 
@@ -84,6 +85,6 @@ If you do not notice any bug type `LGTM`. Once a pull request has a certain numb
 
 ## Conclusion:
 
-Thank you for reading this document (It was very long, sorry 😬). We hope to see your contributions.
+Thank you for reading this document (It was very long, sorry 😬). We look forward to your contributions.
 
 
