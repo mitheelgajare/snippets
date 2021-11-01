@@ -1,4 +1,18 @@
-# 0.1.0 (2021-11-01)
+# [0.2.0](https://github.com/mitheelgajare/snippets/compare/v0.1.0...v0.2.0) (2021-11-01)
+
+
+### Bug Fixes
+
+* Fixed bug in automated javascript testing ([21be388](https://github.com/mitheelgajare/snippets/commit/21be388b34c823f228fc651bda56a67d0e7f9504))
+
+
+### Features
+
+* Added automated javascript testing ([7c9e329](https://github.com/mitheelgajare/snippets/commit/7c9e3298eb922ebcc160fff837df6e09f4e6ad13))
+
+
+
+# [0.1.0](https://github.com/mitheelgajare/snippets/compare/3967f8b5ce87dcd1c6e43b773d638556de43f960...v0.1.0) (2021-11-01)
 
 
 ### Bug Fixes
