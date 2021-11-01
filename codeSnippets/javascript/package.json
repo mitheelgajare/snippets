@@ -1,0 +1,13 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "All the js snippets",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
