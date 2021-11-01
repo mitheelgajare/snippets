@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/mitheelgajare/snippets/compare/v0.2.0...v0.3.0) (2021-11-01)
+
+
+### Features
+
+* Added server (back-end of website) ([7ed5679](https://github.com/mitheelgajare/snippets/commit/7ed5679cc107276cb367499f4e0a2d9b783a62cc))
+
+
+
 # [0.2.0](https://github.com/mitheelgajare/snippets/compare/v0.1.0...v0.2.0) (2021-11-01)
 
 
