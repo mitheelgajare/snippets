@@ -36,6 +36,8 @@ The valid prefixes are:
 1. feat: On adding a new feature
 1. docs: On changing documentation
 1. chore: On adding something which is too small to be a feature but not a bug fix
+
+**We request all contributors to follow this format. This will help in creating automated releases for our code.**
       
 
 
@@ -80,7 +82,7 @@ If you do not notice any bug type `LGTM`. Once a pull request has a certain numb
 2. Use Prettier - Code Formatter for every file.
 3. Use yarn
 4. Type `yarn install` to install dependencies in the `node_modules` folder
-5. To change the styling use Scss only. Add a new .scss file for every major component. Import every file in the App.scss file. It will be compiled to App.css .
+5. To change the styling use Scss only. Add a new .scss file for every major component. Import every file in the `App.scss` file. It will be compiled to `App.css` .
 
 
 ## Conclusion:
