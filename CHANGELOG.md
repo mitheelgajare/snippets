@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/mitheelgajare/snippets/compare/v0.3.0...v0.3.1) (2021-11-01)
+
+
+### Bug Fixes
+
+* Removed tests.js ([4a93c68](https://github.com/mitheelgajare/snippets/commit/4a93c68d694a6a28845c435ae6a10d673a90e04e))
+
+
+
 # [0.3.0](https://github.com/mitheelgajare/snippets/compare/v0.2.0...v0.3.0) (2021-11-01)
 
 
