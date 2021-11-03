@@ -21,11 +21,11 @@ Contributing is to be done throught pull requests. Here are some instructions to
 - [ ] Write pull request that add small changes to the repository. For example instead of adding ten features in one pull request, write different pull requests for each feature. This will make it easy for code reviewers.
 - [ ] Write all pull requests to the master branch. Do *not* create a new branch.
 
-### All pull requests must have the following format:
+### All pull requests and commits must have the following format:
 
 ```
-prefix: message
-description
+prefix: commit message
+commit description
 ```
 
 
