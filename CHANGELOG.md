@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/mitheelgajare/snippets/compare/v0.3.1...v0.3.2) (2021-11-04)
+
+
+### Bug Fixes
+
+* Upgrade axios to latest version v0.24.0 ([09fd2b5](https://github.com/mitheelgajare/snippets/commit/09fd2b53ec6c9ab7d5077a31c56bfd672b0a6d9b))
+
+
+
 ## [0.3.1](https://github.com/mitheelgajare/snippets/compare/v0.3.0...v0.3.1) (2021-11-01)
 
 
