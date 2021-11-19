@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
+import Head from "next/head";
 
 const About = () => {
   return (
     <div className="about-page">
+      <Head>
+        <title>Snippets - About</title>
+      </Head>
       <div className="card">
         <h2>Snippets... One Place for all code</h2>
         <br />

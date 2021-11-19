@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "./../components/Button";
 import axios from "axios";
 import Link from "next/link";
+import Head from "next/head";
 
 // Fetching Data from the API
 export const getStaticProps = async () => {
@@ -36,6 +37,9 @@ const Search = ({ snippets }) => {
   // returned JSX
   return (
     <div className="search-page">
+      <Head>
+        <title>Search</title>
+      </Head>
       <form action="" autoComplete="off" onSubmit={handleSearch}>
         <input
           type="text"
